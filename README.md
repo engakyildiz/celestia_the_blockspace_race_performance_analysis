@@ -49,6 +49,7 @@ Run the bellow command:
 
 `python3 celestia_the_blockspace_race_performance_analysis.py`
 
+After running the above command, you can see the analysis of Celestia the Blockspace Race Light Node Server Performance, System Logs, Network Traffic, Peer Connections, CPU Usage, Memory Usage and Disk Usage.
 
 
 
