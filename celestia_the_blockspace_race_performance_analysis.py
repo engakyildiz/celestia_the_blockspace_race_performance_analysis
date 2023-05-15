@@ -19,7 +19,7 @@ tail_proc = subprocess.Popen(['tail', '-n', '10', '/var/log/syslog'], stdout=sub
 tail_output = tail_proc.stdout.read().decode()
 print(f'System log output: {tail_output}')
 
-geekbench_proc = subprocess.Popen(['/root/Geekbench-6.0.0-LinuxARMPreview/geekbench6', '--cpu', '--compute'], stdout=subprocess.PIPE)
+geekbench_proc = subprocess.Popen(['/usr/local/bin/geekbench6', '--cpu', '--compute'], stdout=subprocess.PIPE)
 geekbench_output = geekbench_proc.stdout.read().decode()
 geekbench_score = re.findall(r'Single-Core Score:\s+(\d+)\nMulti-Core Score:\s+(\d+)', geekbench_output)
 print(f'Geekbench score: {geekbench_score}')
