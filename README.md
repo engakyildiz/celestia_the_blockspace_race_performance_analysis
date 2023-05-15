@@ -39,7 +39,15 @@ Clone the repository:
 
 `git clone https://github.com/engakyildiz/celestia_the_blockspace_race_performance_analysis.git`
 
+## Install and Usage
 
+Change to the path:
+
+`cd celestia_the_blockspace_race_performance_analysis/`
+
+Run the bellow command:
+
+`python3 celestia_the_blockspace_race_performance_analysis.py`
 
 
 
