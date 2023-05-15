@@ -8,6 +8,8 @@ Conduct Performance Analysis of Your Node
 
 - Python3
 - Python3 psutil Library
+- tcpdump package
+- Geekbench
 
 Make sure you have python3 on your server. To check python3 version, use the following command:
 
@@ -23,7 +25,7 @@ Install the psutil library using pip:
 
 `pip3 install psutil`
 
-Install the tcpdump library:
+Install the tcpdump package:
 
 `sudo apt install tcpdump`
 
